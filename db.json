@@ -1,0 +1,100 @@
+{
+  "cardDB": [
+    {
+      "card_number": "John Doe",
+      "card_holder": "9452556336",
+      "expiration_date": "123 Sun Street",
+      "ccv": "997",
+      "amount": 100,
+      "id": 1
+    },
+    {
+      "card_number": "Albert Doe",
+      "card_holder": "9452556336",
+      "expiration_date": "123 Sun Street",
+      "ccv": "993",
+      "amount": 200,
+      "id": 2
+    },
+    {
+      "card_number": "Clint Doe",
+      "card_holder": "9452556336",
+      "expiration_date": "123 Sun Street",
+      "ccv": "923",
+      "amount": 300,
+      "id": 3
+    },
+    {
+      "card_holder": "23123",
+      "card_number": "test",
+      "expiration_date": "2021-02-16",
+      "ccv": "234",
+      "amount": "123",
+      "id": 4
+    },
+    {
+      "card_holder": "",
+      "card_number": "",
+      "expiration_date": "",
+      "ccv": "",
+      "amount": "",
+      "id": 5
+    },
+    {
+      "card_holder": "123",
+      "card_number": "123",
+      "expiration_date": "2021-02-10",
+      "ccv": "123",
+      "amount": "0eee",
+      "id": 6
+    },
+    {
+      "card_holder": "123",
+      "card_number": "123",
+      "expiration_date": "2021-02-09",
+      "ccv": "123",
+      "amount": "123ee",
+      "id": 7
+    },
+    {
+      "card_holder": "12312",
+      "card_number": "123",
+      "expiration_date": "2021-03-04",
+      "ccv": "123",
+      "amount": "123123",
+      "id": 8
+    },
+    {
+      "card_holder": "123",
+      "card_number": "123",
+      "expiration_date": "2021-02-10",
+      "ccv": "12",
+      "amount": "34",
+      "id": 9
+    },
+    {
+      "card_holder": "123",
+      "card_number": "123",
+      "expiration_date": "2021-02-11",
+      "ccv": "2",
+      "amount": "23",
+      "id": 10
+    },
+    {
+      "card_holder": "123",
+      "card_number": "123",
+      "expiration_date": "2021-02-24",
+      "cvv": "123",
+      "amount": "23",
+      "id": 11
+    },
+    {
+      "card_holder": "123123",
+      "card_number": "123123",
+      "expiration_date": "2021-02-11",
+      "cvv": "223",
+      "amount": "23",
+      "id": 12
+    }
+  ]
+}

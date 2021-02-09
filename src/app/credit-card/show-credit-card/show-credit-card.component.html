@@ -1,0 +1,27 @@
+
+<table class="table table-hover">
+<thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Card Number<th>
+        <th>Expiration Date</th>
+        <th>CCV</th>
+        <th>Amount</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let card of (cards$ | async)">
+    <th>{{card.id}}</th>
+    <td>{{card.card_holder}}</td>
+    <td>{{card.card_number}}</td>
+    <td>{{card.expiration_date}}</td>
+    <td>{{card.ccv}}</td>
+    <td>{{card.amount}}</td>
+    <td>{{card.card_number}}</td>
+    </tr>
+</tbody>
+</table> 
+
+<a class="btn btn-primary btn-md" routerLink="/credit-card/add" role="button">Add Credit Card</a>
+ 

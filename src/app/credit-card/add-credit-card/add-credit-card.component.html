@@ -1,0 +1,35 @@
+
+<h3>Add Credit Card</h3>
+
+<form class="form-inline p-4">
+  <form [formGroup]="cardForm" (submit)="createCard()" class="form-inline mb-4">
+    <label class="sr-only" for="Name">Card Holder</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="card_number" placeholder="Card Holder">
+    </div>
+
+    <label class="sr-only" for="Phone">Card Number</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="card_holder" placeholder="Card Number">
+    </div>
+
+    <label class="sr-only" for="Address">Expiration Date</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="date" class="form-control" formControlName="expiration_date" placeholder="Expiration Date">
+    </div>
+
+    <label class="sr-only" for="Address">CVV</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="cvv" placeholder="CVV" maxlength="3">
+    </div>
+
+    <label class="sr-only" for="Address">Amount</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="amount" placeholder="Amount" patter='\d{4}'>
+    </div>
+    <button type="submit" class="btn btn-primary mb-2 ">Proceed</button>
+
+  </form>
+
+  <button class="btn btn-primary" routerLink="">Back to Home</button>
+
